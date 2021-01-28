@@ -1,3 +1,2 @@
 # COMP201-Assignments
-Fall20-
-My solutions for the course assignments and lab practices.
+COMP201-Computer Systems and Programming-Fall20. My solutions for the course assignments.
