@@ -1,0 +1,6 @@
+First, I have written the method we need to implement in a separate c file, compiled and objdump'ed it. Then, by taking the shellcode from there, I have tried to do what it wanted.
+For transfer money, we already had the address from Q1 so I took that address, added push and ret binaries(x68 and xc3) and added to my exploit. At the end of the exploit, I have entered my buffer's address.
+After that, I have filled the remainder with A's in between my buffer and transfer. I have been using 112 A for this, I have decreased the number of A's with the number of binaries I have added.
+I have successfully transferred money with this code (exploit_transfer.py), but I had problems as to where to add the Hacked message. After some research, I have added the print shellcode along with
+my message to the beginning of the exploit but then it started not to transfer money. However I think that is the correct exploit. Probably a minor change would fix it, but the versions I'm submitting 
+are not doing it fully. One of them successfully transfers money, one of them(exploit.py) successfully prints Hacked-by-isahin16!. 

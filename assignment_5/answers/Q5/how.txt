@@ -1,0 +1,1 @@
+Because we used struct, we were able to override username, check_pin and local_secret_pin(108 A, 100 for username, 4 byte for each integer pins). Their addresses were back to back, so the A's we have entered overrided them one by one. Since we have overrided them with A's, check_pin and local_secret_pin was now the same and we were able to transfer money to ourselves.

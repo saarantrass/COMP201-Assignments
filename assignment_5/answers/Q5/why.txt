@@ -1,0 +1,1 @@
+Struct places the variables' adresses in a continuous way in the memory with some offets according to the variable type. They are in the memory as a block. When struct is not used, adresses are given to variables in a randomized way.
