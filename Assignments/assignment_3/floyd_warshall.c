@@ -261,5 +261,12 @@ int main(int argc, char *argv[])
 	floydWarshall();
   // print the path between two cities and the total km
   printPath(city1ind,city2ind);
+  free(str);
+  free(str1);
+  free(str2);
+  free(roads.edge);
+  free(token);
+  free(city_graph);
+  free(shortest_paths);
 	return 0;	
 }

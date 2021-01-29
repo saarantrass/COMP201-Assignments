@@ -93,7 +93,7 @@ int task2(){
 		rewind(file2);//rewinds movies file to beginning
 	}
 	negMax=posMax=0;
-	for (int i=0; i<SIZE; i++){
+	for (int i=0; i<index; i++){
 		if(neg[i]>neg[negMax]) negMax=i;//gets the indexes of max elements
 		if(pos[i]>pos[posMax]) posMax=i;
 	}
